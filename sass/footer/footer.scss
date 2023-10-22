@@ -99,3 +99,22 @@ footer {
     }
   }
 }
+@media (max-width: 447px) {
+  footer {
+    padding: 100px 47px;
+    nav {
+      img {
+        margin: 10px auto;
+      }
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    input {
+      margin: 0 auto;
+    }
+    .footer_last_a {
+      margin: 0 auto;
+    }
+  }
+}

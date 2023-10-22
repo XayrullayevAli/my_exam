@@ -96,4 +96,23 @@ footer nav .footer_last_a:hover {
   footer .footer_last_a {
     margin: 0 auto;
   }
+}
+@media (max-width: 447px) {
+  footer {
+    padding: 100px 47px;
+  }
+  footer nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  footer nav img {
+    margin: 10px auto;
+  }
+  footer input {
+    margin: 0 auto;
+  }
+  footer .footer_last_a {
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=footer.css.map */

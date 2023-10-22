@@ -19,6 +19,8 @@
   list-style: none;
   text-decoration: none;
   font-family: "Inter", "Poppins", "Montserrat", sans-serif, serif;
+  transition: all 0.3s linear;
+  scroll-behavior: smooth;
 }
 
 header {
