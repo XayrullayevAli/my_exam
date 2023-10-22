@@ -1,0 +1,318 @@
+section {
+  background: #1f2e35;
+}
+section main {
+  background: #22343d;
+  height: 320px;
+  margin-bottom: 150px;
+}
+section main .section_main_between {
+  text-align: center;
+  padding: 53px 0;
+}
+section main .section_main_between h3 {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+section main .section_main_between h4 {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+section main .section_main_between p {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+section main .section_main_between a {
+  width: 224px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 8px;
+  background: #02897a;
+  color: #fff;
+  border: none;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 600;
+}
+section main .section_main_between a:hover {
+  background: #fff;
+  border: 1px solid #02897a;
+  color: #02897a;
+}
+section article {
+  padding: 0 145px;
+}
+section article h3 {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: center;
+}
+section article .section_article_boxs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+section article .section_article_titles {
+  margin: 0 auto;
+}
+section article .section_article_humans {
+  display: none;
+}
+section article .section_article_title_box {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 23px;
+}
+section article h5 {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 600;
+}
+section article p {
+  max-width: 533px;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 32px;
+}
+section aside {
+  padding: 0 240px;
+  margin-top: 150px;
+}
+section aside h3 {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 34px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+section aside .aside_p {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+section aside .section_aside_boxs {
+  margin-bottom: 150px;
+}
+section aside .section_aside_title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 1px solid #474747;
+  padding-bottom: 22px;
+  margin-top: 16px;
+}
+section aside .section_aside_title p {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+}
+section aside .section_aside_title .aside_pp {
+  color: #22343d;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+}
+section aside .section_aside_boxx_title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+  gap: 16px;
+}
+section aside .section_aside_boxx_title p {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+}
+section aside .section_aside_boxx {
+  margin-top: 20px;
+  border-bottom: 1px solid #474747;
+  padding-bottom: 22px;
+}
+section aside .section_aside_boxx .aside-p {
+  max-width: 920px;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+}
+section aside .section_aside_div {
+  max-width: 1000px;
+  height: 345px;
+  padding: 20px 36px 56px 51px;
+  border-radius: 32px;
+  background: #02897a;
+  display: flex;
+  margin: 0 auto;
+}
+section aside .section_aside_div p {
+  max-width: 510px;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 151.4%;
+  padding-top: 20px;
+  margin-bottom: 90px;
+}
+section aside .section_aside_div a {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #fff;
+  color: #22343d;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+}
+section aside .section_aside_div a:hover {
+  color: #02897a;
+  background: #fff;
+  border: 1px solid #22343d;
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+  section aside .section_aside_div {
+    display: flex;
+    padding: 10px 21px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 371px;
+    height: 688px;
+  }
+  section aside .section_aside_div a {
+    margin: 10px auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 990px) {
+  section article .section_article_imgs {
+    display: none;
+  }
+  section article .section_article_humans {
+    display: block;
+    width: 272px;
+    height: 255px;
+  }
+  section article .section_article_img {
+    margin: 10px auto;
+  }
+  section aside {
+    padding: 0 32px;
+  }
+  section aside .section_aside_box {
+    width: 345px;
+  }
+  section aside .section_aside_div {
+    display: flex;
+    padding: 10px 21px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 371px;
+    height: 688px;
+  }
+  section aside .section_aside_div a {
+    margin: 10px auto;
+  }
+}
+@media (min-width: 447px) and (max-width: 769px) {
+  section article {
+    padding: 35px;
+  }
+  section article .section_article_imgs {
+    display: none;
+  }
+  section article .section_article_humans {
+    display: block;
+    width: 272px;
+    height: 255px;
+  }
+  section article .section_article_img {
+    margin: 10px auto;
+  }
+  section aside {
+    padding: 0 32px;
+  }
+  section aside .section_aside_box {
+    width: 345px;
+  }
+  section aside .section_aside_div {
+    display: flex;
+    padding: 10px 21px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 371px;
+    height: 688px;
+  }
+  section aside .section_aside_div a {
+    margin: 10px auto;
+  }
+}
+@media (max-width: 447px) {
+  section article {
+    padding: 35px;
+  }
+  section article .section_article_imgs {
+    display: none;
+  }
+  section article .section_article_humans {
+    display: block;
+    width: 272px;
+    height: 255px;
+  }
+  section article .section_article_img {
+    margin: 10px auto;
+  }
+  section aside {
+    padding: 0 32px;
+  }
+  section aside .section_aside_box {
+    width: 345px;
+  }
+  section aside .section_aside_div {
+    display: flex;
+    padding: 10px 21px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 371px;
+    height: 688px;
+  }
+  section aside .section_aside_div a {
+    margin: 10px auto;
+  }
+}/*# sourceMappingURL=section.css.map */
